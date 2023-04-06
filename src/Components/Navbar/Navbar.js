@@ -11,24 +11,24 @@ function Navbar() {
     <nav className="bg-white shadow-lg">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
-          <div className="flex-shrink-0 flex items-center">
-            <a href="/" className="text-lg font-bold text-gray-800">My Bookshop</a>
+          <div className=" flex items-center">
+            <a href="/" className="text-2xl font-bold text-gray-800">My Bookshop</a>
           </div>
           <div className="hidden md:block">
-            <ul className="ml-4 flex items-center">
-              <li className="ml-4">
+            <div className=" flex justify-between items-center mt-5">
+            <p className='mr-4 md:mr-8 font-bold hover:border-blue-500 transition duration-200 ease-in-out'>
                 <a href="/" className="text-gray-800 hover:text-gray-900">Homepage</a>
-              </li>
-              <li className="ml-4">
+              </p>
+              <p className='mr-4 md:mr-8 font-bold'>
                 <a href="/books" className="text-gray-800 hover:text-gray-900">Contact</a>
-              </li>
-              <li className="ml-4">
+              </p>
+              <p className='mr-4 md:mr-8 font-bold'>
                 <a href="/contact" className="text-gray-800 hover:text-gray-900">Booking Page</a>
-              </li>
-              <li className="ml-4">
-                <a href="/contact" className="text-gray-800 hover:text-gray-900">All Book Collections</a>
-              </li>
-            </ul>
+              </p>
+              <p className='mr-4 md:mr-8 font-bold'>
+                <a href="/contact" className="text-gray-800 hover:text-gray-900">Book Collections</a>
+              </p>
+            </div>
           </div>
           <div className="-mr-2 flex items-center md:hidden">
             <button onClick={toggleMenu} type="button" className="bg-gray-800 rounded-md p-2 inline-flex items-center justify-center text-gray-200 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
@@ -49,9 +49,10 @@ function Navbar() {
       {isOpen && (
         <div className="md:hidden ">
           <div className="my-8 cursor-pointer text-white text-2xl text-center font-base">
-            <p className='mb-2'><a href="/" className="text-gray-800 hover:text-gray-900">Home</a></p>
-            <p className='mb-2'><a href="/books" className="text-gray-800 hover:text-gray-900">Books</a></p>
-            <p className='mb-2'><a href="/contact" className="text-gray-800 hover:text-gray-900">Contact</a></p>
+            <p className='mb-2'><a href="/" className="text-gray-800 hover:text-gray-900">Homepage</a></p>
+            <p className='mb-2'><a href="/books" className="text-gray-800 hover:text-gray-900">Contact</a></p>
+            <p className='mb-2'><a href="/contact" className="text-gray-800 hover:text-gray-900">Booking page</a></p>
+            <p className='mb-2'><a href="/contact" className="text-gray-800 hover:text-gray-900">Book Collections</a></p>
           </div>
         </div>
       )}
