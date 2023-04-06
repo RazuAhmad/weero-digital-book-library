@@ -1,8 +1,11 @@
 import React from 'react'
+import Navbar from './Components/Navbar/Navbar'
 
 function App() {
   return (
-    <div>Weero digital book shop</div>
+    <div>
+      <Navbar/>
+    </div>
   )
 }
 
