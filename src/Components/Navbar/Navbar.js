@@ -17,7 +17,7 @@ function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className=" flex items-center">
-            <a href="/" className="text-2xl font-bold text-white"> <img className='w-12' src={weeroDigitalIcon} alt="" /></a>
+            <a href="/" className="text-2xl font-bold text-white">Weero Book Shop</a>
           </div>
           <div className="hidden md:block">
             <div className=" flex justify-between items-center mt-5 ">
@@ -55,7 +55,7 @@ function Navbar() {
         </div>
       </div>
       {isOpen && (
-        <div className="md:hidden scale-up-center">
+        <div className="md:hidden scale-up-center ">
           <div className="my-8 py-6 cursor-pointer text-2xl  flex flex-col items-center justify-center font-base">
             <p className='mb-2'>
               <Link to="/" onClick={() =>setIsOpen(false)} className="text-white hover:text-black hover:underline hover:underline-offset-4">Homepage</Link>

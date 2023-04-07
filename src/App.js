@@ -1,16 +1,18 @@
 import React from 'react'
 import "./App.css"
 import Navbar from './Components/Navbar/Navbar'
-import BookSlider from './Components/BookSlider/BookSlider'
 import BookHeader from './Components/BookHeader/BookHeader'
+import LibraryCarousel from './Components/LibraryCarousel/LibraryCarousel'
+import Author from './Components/Author/Author'
 
 
 function App() {
   return (
     <div className='body'>
       <Navbar/>
-      <BookSlider/>
+      <LibraryCarousel/>
       <BookHeader/>
+      <Author/>
     </div>
   )
 }
