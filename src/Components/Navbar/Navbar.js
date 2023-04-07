@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import "./Navbar.css";
+import weeroDigitalIcon from "../../images/weero-dital-icon.jpg"
 import { Link } from 'react-router-dom';
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 
@@ -16,7 +17,7 @@ function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className=" flex items-center">
-            <a href="/" className="text-2xl font-bold text-white">My Bookshop</a>
+            <a href="/" className="text-2xl font-bold text-white"> <img className='w-12' src={weeroDigitalIcon} alt="" /></a>
           </div>
           <div className="hidden md:block">
             <div className=" flex justify-between items-center mt-5 ">
