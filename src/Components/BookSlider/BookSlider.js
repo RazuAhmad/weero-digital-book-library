@@ -7,7 +7,7 @@ import slider4 from "../../images/book library slider 4.jpg"
 import slider5 from "../../images/book library slider 5.jpg"
 function BookSlider() {
   return (
-    <div className="h-72 sm:h-64 xl:h-auto 2xl:h-96 mt-4">
+    <div className="h-72 sm:h-64 xl:h-auto 2xl:h-96">
   <Carousel>
     <img
       src={slider1}
