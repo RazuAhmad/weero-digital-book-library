@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import "./Navbar.css";
-import weeroDigitalIcon from "../../images/weero-dital-icon.jpg"
+
 import { Link } from 'react-router-dom';
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 
@@ -28,7 +28,7 @@ function Navbar() {
                 <Link to="/contact_us" className="text-white hover:text-black hover:underline hover:underline-offset-4">Contact Us</Link>
               </p>
               <p className='mr-4 md:mr-8 font-bold'>
-                <Link to="/booking_page" className="text-white hover:text-black hover:underline hover:underline-offset-4">Booking Page</Link>
+                <Link to="/booking_page" className="text-white hover:text-black hover:underline hover:underline-offset-4">About Us</Link>
               </p>
               <p className='mr-4 md:mr-8 font-bold'>
                 <Link to="/book_collections" className="text-white hover:text-black hover:underline hover:underline-offset-4">Book Collections</Link>
