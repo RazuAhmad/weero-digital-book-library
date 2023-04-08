@@ -64,7 +64,7 @@ function Navbar() {
               <Link to="/contact_us" onClick={() =>setIsOpen(false)} className="text-white hover:text-black hover:underline hover:underline-offset-4">Contact Us</Link>
               </p>
             <p className='mb-2'>
-              <Link to="/booking_page" onClick={() =>setIsOpen(false)}  className="text-white hover:text-black hover:underline hover:underline-offset-6">Booking page</Link>
+              <Link to="/about_us" onClick={() =>setIsOpen(false)}  className="text-white hover:text-black hover:underline hover:underline-offset-6">About Us</Link>
               </p>
             <p className='mb-2'>
               <Link to="/book_collections" onClick={() =>setIsOpen(false)} className="text-white hover:text-black hover:underline hover:underline-offset-4">Book Collections</Link>
